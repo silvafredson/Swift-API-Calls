@@ -8,8 +8,7 @@
 import Foundation
 
 struct GitHubUser: Codable {
-    let login: String
-    let avatar_ulr: String
+    let name: String
+    let avatarUrl: String
     let bio: String
-    
 }

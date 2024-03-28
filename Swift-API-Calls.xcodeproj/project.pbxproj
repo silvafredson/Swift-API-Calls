@@ -13,6 +13,8 @@
 		6501BCBC2BB39ED30060B73F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6501BCBB2BB39ED30060B73F /* Preview Assets.xcassets */; };
 		652897262BB3A408007BEC44 /* GitHubUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652897252BB3A408007BEC44 /* GitHubUser.swift */; };
 		652897282BB3B25C007BEC44 /* GitHubError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652897272BB3B25C007BEC44 /* GitHubError.swift */; };
+		65BC73DB2BB567020052CAF1 /* GetUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BC73DA2BB567020052CAF1 /* GetUser.swift */; };
+		65BC73DD2BB56D920052CAF1 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 65BC73DC2BB56D920052CAF1 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		6501BCBB2BB39ED30060B73F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		652897252BB3A408007BEC44 /* GitHubUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubUser.swift; sourceTree = "<group>"; };
 		652897272BB3B25C007BEC44 /* GitHubError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubError.swift; sourceTree = "<group>"; };
+		65BC73DA2BB567020052CAF1 /* GetUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetUser.swift; sourceTree = "<group>"; };
+		65BC73DC2BB56D920052CAF1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +63,10 @@
 				6501BCB62BB39ED20060B73F /* ContentView.swift */,
 				652897252BB3A408007BEC44 /* GitHubUser.swift */,
 				652897272BB3B25C007BEC44 /* GitHubError.swift */,
+				65BC73DA2BB567020052CAF1 /* GetUser.swift */,
 				6501BCB82BB39ED30060B73F /* Assets.xcassets */,
 				6501BCBA2BB39ED30060B73F /* Preview Content */,
+				65BC73DC2BB56D920052CAF1 /* README.md */,
 			);
 			path = "Swift-API-Calls";
 			sourceTree = "<group>";
@@ -131,6 +137,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65BC73DD2BB56D920052CAF1 /* README.md in Resources */,
 				6501BCBC2BB39ED30060B73F /* Preview Assets.xcassets in Resources */,
 				6501BCB92BB39ED30060B73F /* Assets.xcassets in Resources */,
 			);
@@ -146,6 +153,7 @@
 				652897262BB3A408007BEC44 /* GitHubUser.swift in Sources */,
 				652897282BB3B25C007BEC44 /* GitHubError.swift in Sources */,
 				6501BCB72BB39ED20060B73F /* ContentView.swift in Sources */,
+				65BC73DB2BB567020052CAF1 /* GetUser.swift in Sources */,
 				6501BCB52BB39ED20060B73F /* Swift_API_CallsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
